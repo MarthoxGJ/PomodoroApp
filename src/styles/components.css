@@ -1,0 +1,35 @@
+.navbar__container {
+  position: relative;
+  display: grid;
+  grid: auto / 1fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0.5rem; */
+  width: 37.5rem;
+  height: 6rem;
+  background-color: var(--Accented-Color);
+  border-radius: 10rem;
+  color: var(--White);
+  user-select: none;
+}
+
+.navbar__item {
+  display: grid;
+  place-content: center;
+  border-radius: 10rem;
+  color: var(--White);
+  z-index: 2;
+  mix-blend-mode: overlay;
+  font-weight: 600;
+}
+
+.slide {
+  position: absolute;
+  height: 100%;
+  background-color: var(--Main-Color-1);
+  width: 33.3%;
+  border-radius: 10rem;
+  border: 1rem var(--Accented-Color) solid;
+  transform: translateX(0%);
+  transition: transform 1s;
+}
