@@ -1,0 +1,60 @@
+/* Colors */
+
+:root {
+  --BG: hsl(235, 36%, 18%);
+  --Text: hsl(225, 100%, 93%);
+  --Text2: hsl(233, 53%, 78%);
+  --Main-Color-1: hsl(358, 87%, 70%);
+  --Main-Color-2: hsl(183, 89%, 71%);
+  --Main-Color-3: hsl(286, 87%, 74%);
+  --Accented-Color: hsl(232, 41%, 14%);
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 0%);
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito Sans', Helvetica, sans-serif;
+  font-size: 1.6rem;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  background-color: var(--BG);
+}
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;800&display=swap');
+/* weight 300, 400, 800 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+  color: var(--Text);
+  font-size: 3.5rem;
+}
+
+p {
+  font-weight: 400;
+  color: var(--Text);
+}
+
+li {
+  font-weight: 800;
+  color: var(--Accented-Color);
+}

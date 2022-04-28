@@ -1,0 +1,7 @@
+{
+  "navbar": {
+    "pomodoro": "Pomodoro",
+    "short_break": "Descanso corto",
+    "long_break": "Descanso largo"
+  } 
+}
